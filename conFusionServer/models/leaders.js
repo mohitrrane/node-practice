@@ -22,6 +22,10 @@ const leaderSchema = new Schema({
     description: {
         type: String,
         required: true
+    },
+    featured: {
+        type: String,
+        default: false
     }
 }, {
     timestamps: true
